@@ -1,0 +1,776 @@
+.section-grid-why-42 {
+  background: #19a7a9;
+}
+
+.sf-title {
+  color: #2e10da;
+}
+
+ul.deskripsi-element2 {
+  color: #000000;
+  font-size: 19px;
+}
+
+.topic-materi ul li {
+  margin-bottom: 1%;
+  text-align: justify;
+}
+
+.accordion-item-body-content ol li {
+  margin-bottom: 2%;
+  text-align: justify;
+}
+
+.accordion-item-body-content ul li {
+  margin-bottom: 2%;
+  text-align: justify;
+}
+
+.section-grid-why-47 .contact-chat {
+  margin: 0;
+}
+
+li p.deskripsi-element {
+  color: #000000;
+}
+
+.topic-materi ul li {
+  color: #000000;
+  font-size: 19px;
+}
+
+.pagination span {
+  cursor: pointer;
+  color: #1527ab;
+  font-size: 20px;
+  letter-spacing: 18px;
+}
+
+.topic-materi .accordion-item-header {
+  font-size: 22px;
+  --c: #229091; /* the color*/
+
+  box-shadow: 0 0 0 0.1em inset var(--c);
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: var(--_g) calc(var(--_p, 0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p, 0%)) 0%,
+    var(--_g) calc(var(--_p, 0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p, 0%)) 100%;
+  background-size: 50.5% calc(var(--_p, 0%) / 2 + 0.5%);
+  outline-offset: 0.1em;
+  transition: background-size 0.4s, background-position 0s 0.4s;
+}
+
+.topic-materi .accordion-item-header:hover {
+  color: white;
+  --_p: 100%;
+  transition: background-position 0.4s, background-size 0s;
+}
+
+.topic-materi .accordion-item-header:active {
+  box-shadow: 0 0 9e9Q inset rgba(0, 0, 0, 0.6);
+  background-color: var(--c);
+  color: #fff;
+}
+
+.pagination span:hover {
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 18px;
+}
+
+.accordion-item-body-content {
+  color: #000000;
+  font-size: 19px;
+}
+
+.deskripsi-element {
+  color: #000000;
+  font-size: 19px;
+}
+
+.section-grid-why-44 {
+  background: #19a7a9;
+}
+
+.section-grid-why-47 {
+  background: #19a7a9;
+}
+.section-grid-why-47 p.deskripsi-element {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.deskripsi-element-why-contac-aom {
+  font-size: 33px;
+  padding: 20px;
+  text-align: center;
+  background-image: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    #c3c4c5 33%,
+    #fc7e1d 66%
+  );
+  box-shadow: inset 0 8px rgb(6, 0, 177);
+  border-radius: 8px 8px 0 0;
+  -webkit-border-radius: 8px 8px 0 0;
+  -moz-border-radius: 8px 8px 0 0;
+  -ms-border-radius: 8px 8px 0 0;
+  -o-border-radius: 8px 8px 0 0;
+}
+
+.deskripsi-element-why-contac-aom:hover {
+  color: white;
+  --_p: 100%;
+  transition: background-position 0.4s, background-size 0s;
+}
+
+.deskripsi-element-why-contac-aom:active {
+  box-shadow: 0 0 9e9Q inset rgba(0, 0, 0, 0.6);
+  background-color: var(--c);
+  color: #fff;
+}
+
+/*===============================================
+STYLE CONTENT PROJEC START
+================================================*/
+
+.breadcrumb-topic-element-top-tab .tab-content .agenda1-element-top {
+  color: #ffffff;
+}
+
+.breadcrumb-topic-element-top-tab .tab-content .tema-element-top {
+  color: #c1ff15;
+}
+
+.deskripsi-element-agenda .topic-materi .garis-dashed {
+  border-bottom: 2px dashed rgb(179, 179, 179);
+}
+
+.deskripsi-element-agenda .deskripsi-element {
+  color: #000000;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.deskripsi-element-agenda .deskripsi-element2 li {
+  color: #000000;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.deskripsi-element b {
+  color: #0c14fc;
+}
+
+p.deskripsi-element {
+  text-align: justify;
+  font-size: 18px;
+}
+
+.contact-payment .fw-bold.text-secondary {
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  background-image: linear-gradient(
+    90deg,
+    #00dbde 0%,
+    #1385ff 33%,
+    #5fecf3 66%
+  );
+  box-shadow: inset 0 8px rgb(6, 0, 177);
+  border-radius: 8px 8px 0 0;
+  -webkit-border-radius: 8px 8px 0 0;
+  -moz-border-radius: 8px 8px 0 0;
+  -ms-border-radius: 8px 8px 0 0;
+  -o-border-radius: 8px 8px 0 0;
+}
+
+.deskripsi-element-agenda .topic-materi ul li {
+  color: #000000;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.deskripsi-element-agenda .topic-materi ol li {
+  color: #000000;
+  font-size: 18px;
+  text-align: justify;
+}
+
+/***********************************************************************/
+/***********************************************************************/
+/***********************************************************************/
+/***********************************************************************/
+
+/***********************************************************************/
+/***********************************************************************/
+/***********************************************************************/
+/***********************************************************************/
+/***********************************************************************/
+.topic-content {
+  margin-top: 5%;
+  font-size: 25px;
+  color: #000000;
+}
+
+.fw-bold-season1 {
+  font-size: 25px;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 1em;
+  margin-bottom: 3%;
+  border-radius: 16px;
+  background: #010577;
+  color: white;
+}
+
+.section-1-1 .topic-content {
+  border-bottom: 4px double rgb(179, 179, 179);
+}
+
+.topic {
+  font-size: 23px;
+  border-bottom: 2px dashed rgb(179, 179, 179);
+}
+
+.topic-materi .fw-bold-materi {
+  font-size: 23px;
+  margin-top: 5%;
+}
+
+.section-1-2 ul li {
+  color: #000000;
+}
+
+.topic-materi ol.elementor-metod {
+  font-size: 27px;
+  line-height: 150%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #0013de;
+}
+/********END*****************************************/
+
+/*******************************************************************************/
+
+/***************************************************************************************************************************/
+
+/*********************************REGISTRASI START********************************************
+******************************KONTAK REGISTRASI START*******************************************/
+
+/*************************KONTAK REGISTRASI END*************************************/
+
+/*****************************************************************************/
+
+.fw-bold-season1 {
+  font-size: 27px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 2%,
+    rgba(9, 9, 121, 1) 49%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: #c1ff15;
+}
+
+.contact-chat img {
+  text-align: center;
+}
+
+.contact-chat img {
+  width: 40%;
+  height: 20%;
+  display: flex;
+}
+
+.callout .batas {
+  border-bottom: 2px dashed rgb(179, 179, 179);
+}
+@media (max-width: 780px) {
+  .contact-chat img {
+    width: 80%;
+    height: 70%;
+    display: flex;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-chat img {
+    width: 80%;
+    height: 70%;
+    display: flex;
+  }
+}
+.section-1-1 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+}
+/***********************************CHATTING ICON WHATSAPP START*******************************************/
+
+/*****************************************************************************************/
+/*****************************************************************************************/
+/******* STYLE TEMA CONTENT TOP TO TAB_NAV MENU START ********/
+/*****************************************************************************************/
+/*****************************************************************************************/
+
+.tab_container {
+  margin-top: 8.7%;
+}
+
+.tab_container {
+  width: 100%;
+  position: relative;
+  background: solid #868686;
+}
+
+.tab_container input,
+section-tab-top {
+  clear: both;
+  padding-top: 10px;
+  display: none;
+}
+
+.tab_container label {
+  font-weight: 700;
+  font-size: 22px;
+  display: block;
+  float: left;
+  width: 30%;
+  padding: 1.5em;
+  color: #97ff0f;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  background: #ffffff;
+  border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -ms-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2 {
+  display: block;
+  padding: 25px;
+  background: rgb(11, 6, 82);
+  color: #000000;
+  border-bottom: 50px solid #868686;
+  border-radius: 0 0 15px 15px;
+  -webkit-border-radius: 0 0 15px 15px;
+  -moz-border-radius: 0 0 15px 15px;
+  -ms-border-radius: 0 0 15px 15px;
+  -o-border-radius: 0 0 15px 15px;
+}
+
+.tab_container .tab-content p,
+.tab_container .tab-content h3 {
+  -webkit-animation: fadeInScale 0.7s ease-in-out;
+  -moz-animation: fadeInScale 0.7s ease-in-out;
+  animation: fadeInScale 0.7s ease-in-out;
+}
+
+.tab_container .tab-content h3 {
+  text-align: left;
+}
+.tab-content .batas {
+  border-bottom: 2px dashed rgb(179, 179, 179);
+}
+
+h2.agenda1-element-top {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+}
+
+h3.tema-element-top {
+  font-size: 30px;
+}
+
+.tab-content img {
+  float: right;
+  width: 280px;
+  height: 170px;
+  margin-bottom: 5%;
+}
+.tab-content h3 {
+  margin-bottom: 4.5%;
+}
+.tab-content p {
+  color: rgb(255, 255, 255);
+}
+.tab-content .element-content-zoom {
+  color: rgb(87, 244, 255);
+}
+
+.tab_container [id^="tab"]:checked + label {
+  background: rgb(11, 6, 82);
+  box-shadow: inset 0 10px #0ce;
+}
+
+.tab_container [id^="tab"]:checked + label .fa {
+  color: #0ce;
+}
+
+.tab_container label .fa {
+  font-size: 1.3em;
+  margin: 0 0.4em 0 0;
+}
+/*Media query*/
+@media only screen and (max-width: 1200px) {
+  .tab_container {
+    margin-top: 12%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .tab_container label span {
+    font-size: 20px;
+  }
+  .tab_container {
+    margin-top: 2%;
+    width: 100%;
+  }
+  .tab_container label .fa {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .tab_container label span {
+    display: inline;
+    width: 100%;
+    font-size: 20px;
+  }
+  .tab_container label .fa {
+    font-size: 16px;
+  }
+
+  .tab-content img {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 535px) {
+  .tab_container label span {
+    width: 100%;
+    display: inline;
+    font-size: 17px;
+  }
+}
+/****************************************************************************************/
+/**********STYLE TEMA CONTENT TOP TO TAB_NAV MENU END********/
+/***************************************************************************************/
+/****************************************************************************************/
+/**************************************/
+
+/*******STYLE TABLE REGISTRASI START ********/
+/*****************************************************************************************/
+/*****************************************************************************************/
+
+.coment .replay {
+  margin-top: 4%;
+  font-size: 35px;
+  padding: 20px;
+  color: #97ff0f;
+  box-shadow: inset 0 8px #0ce;
+  background-color: #0013de;
+  background: linear-gradient(90deg, #0016de 0%, #1385ff 33%, #2b2bfb 66%);
+}
+.contact-details {
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  margin-top: 3%;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.contact-details .bag-elemen-contact-details {
+  box-shadow: inset 0 8px #0ce;
+  background-color: #0013de;
+  background: linear-gradient(90deg, #0016de 0%, #1385ff 33%, #2b2bfb 66%);
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.coment .contact-details img {
+  max-width: 20%;
+  max-height: 20%;
+}
+
+@media screen and (max-width: 992px) {
+  .coment .contact-details img {
+    max-width: 40%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .coment .contact-details img {
+    max-width: 40%;
+  }
+
+  .contact-details .bag-elemen-contact-details {
+    text-align: center;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .coment .contact-details img {
+    max-width: 40%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .bag-elemen-contact-details h4 {
+    font-size: 15px;
+  }
+}
+
+.coment .contact-details h4 {
+  margin-top: 5%;
+  font-size: 33px;
+  color: #93fc29;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: #0e007b;
+  box-shadow: inset 0 8px #0ce;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type="submit"]:hover {
+  background-color: #0076fc;
+}
+
+.submit-cont {
+  border-radius: 5px;
+  background-color: #dee3e3;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  color: #000000;
+}
+
+.col-75 {
+  float: right;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.submit:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/****************************************************************************************/
+/**********STYLE TABLE REGISTRASI END********/
+/***************************************************************************************/
+/****************************************************************************************/
+/****************************************************************************************/
+
+/*******************************************************************/
+/*******************************************************************/
+/*******************************************************************/
+/*******************************************************************/
+/***************************materi agenda****************************************/
+h1 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+}
+
+.accordion {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+.accordion-item {
+  background: #ffffff;
+  color: #111;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+.accordion-item-header {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.accordion-item-header::after {
+  content: "\002B";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+.accordion-item-header.active::after {
+  content: "\2212";
+}
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion-item-body-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/*============================================*/
+
+.page-item button {
+  position: relative;
+  background-color: #00c0de;
+  color: #85d004;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  padding: 1rem 3rem;
+  transition: 0.2s;
+}
+.page-item button:hover {
+  letter-spacing: 0.2rem;
+  padding: 1.2rem 3.1rem;
+  background: rgb(0, 251, 255);
+  color: rgb(43, 255, 237);
+  /*box-shadow: 0 0 35px var(--clr);
+  */
+  animation: box 3s infinite;
+  -webkit-animation: box 3s infinite;
+}
+.page-item button::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #fdb603;
+}
+
+.page-item button span {
+  position: relative;
+  z-index: 1;
+}
+.page-item button i {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+.page-item button i::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  left: 80%;
+  top: -2px;
+  border: 5px solid var(--clr);
+  transition: 0.2s;
+}
+
+.page-item button:hover i::before {
+  width: 15px;
+  left: 20%;
+  animation: move 3s infinite;
+}
+
+.page-item button i::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  left: 20%;
+  bottom: -2px;
+  border: 5px solid var(--clr);
+  background: #01b38f;
+  transition: 0.2s;
+}
+
+.page-item button:hover i::after {
+  width: 15px;
+  left: 80%;
+  animation: move 3s infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes box {
+  0% {
+    box-shadow: #009b96;
+  }
+  50% {
+    box-shadow: 0 0 25px var(--clr);
+  }
+  100% {
+    box-shadow: #02567a;
+  }
+}

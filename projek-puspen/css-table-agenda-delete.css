@@ -1,0 +1,169 @@
+.form-control-projec {
+  border: 1px solid #000000;
+  background-color: #e8faf2;
+  font-size: 19px;
+  margin-bottom: 5%;
+}
+
+#table-id {
+  background: #f8920c;
+  color: #000000;
+}
+
+.teble-jadwal-why-aom {
+  text-align: center;
+}
+
+.table-deskripsi-element-why-aom {
+  color: #ffffff;
+  text-align: center;
+}
+
+thead tr th.content-why-aom {
+  background: #016288;
+  padding: 20px;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+
+tbody tr.why-down-table-aom {
+  background: #ffffff;
+}
+
+tbody tr.why-down-table-aos {
+  background: #b6f0fb;
+}
+
+.cal-why-aom {
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+}
+
+tbody td.why-color-table-down {
+  color: #ffffff;
+}
+.running,
+.scheduled,
+.expired,
+.closed {
+  font-size: 11px;
+  line-height: 1.4em;
+  text-align: center;
+  margin: 3px 0 0 0;
+  padding: 4px 5px 3px 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.running {
+  background: #12873b;
+  color: #fff;
+  margin-top: 10%;
+}
+
+.scheduled {
+  background: #ff7b0f;
+  color: #fff;
+  margin-top: 10%;
+}
+
+table th,
+table td {
+  padding: 0.625em;
+  text-align: center;
+}
+
+table th {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.pagination span {
+  cursor: pointer;
+  color: #1527ab;
+  font-size: 20px;
+  letter-spacing: 18px;
+}
+
+.topic-materi .accordion-item-header {
+  font-size: 22px;
+  --c: #229091; /* the color*/
+
+  box-shadow: 0 0 0 0.1em inset var(--c);
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: var(--_g) calc(var(--_p, 0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p, 0%)) 0%,
+    var(--_g) calc(var(--_p, 0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p, 0%)) 100%;
+  background-size: 50.5% calc(var(--_p, 0%) / 2 + 0.5%);
+  outline-offset: 0.1em;
+  transition: background-size 0.4s, background-position 0s 0.4s;
+}
+
+.topic-materi .accordion-item-header:hover {
+  color: white;
+  --_p: 100%;
+  transition: background-position 0.4s, background-size 0s;
+}
+
+.topic-materi .accordion-item-header:active {
+  box-shadow: 0 0 9e9Q inset rgba(0, 0, 0, 0.6);
+  background-color: var(--c);
+  color: #fff;
+}
+
+.pagination span:hover {
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 18px;
+}
+@media screen and (max-width: 1100px) {
+  .pagination {
+    cursor: pointer;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 18px;
+  }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    display: block;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625em;
+  }
+
+  tbody td.cal-why-aom {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    text-align: right;
+    font-size: 18px;
+  }
+
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+}

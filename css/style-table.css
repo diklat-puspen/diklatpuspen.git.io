@@ -1,0 +1,224 @@
+.main-grid-table-aom {
+  background-color: #02567a;
+}
+
+.testbtn {
+  border: 1px solid !important;
+  border-left: 1px solid !important;
+  border-right: 1px solid !important;
+  border-top: 1px solid !important;
+  border-bottom: 1px solid !important;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.rows_count {
+  margin-top: 1.5%;
+  color: #ffffff;
+}
+
+.aom-title-content .why-aom-title-content {
+  font-size: 22px;
+  margin-bottom: 3%;
+  text-align: left;
+  background: #6bddda;
+  padding: 25px;
+  border-radius: 7px 7px 0 0;
+  -webkit-border-radius: 7px 7px 0 0;
+  -moz-border-radius: 7px 7px 0 0;
+  -ms-border-radius: 7px 7px 0 0;
+  -o-border-radius: 7px 7px 0 0;
+  box-shadow: inset 0 8px rgba(244, 170, 10, 0.968);
+}
+
+.aom-title-content .why-aom-title-content {
+  color: #2612dd;
+  font-size: 32px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.aom-title-content .why-aom-subtitle-content {
+  margin-bottom: 5%;
+  font-size: 21px;
+  text-align: justify;
+  color: #ffffff;
+}
+
+button.w3-bar-item.w3-button {
+  color: rgb(255, 255, 255);
+  padding: 23px;
+  background-color: #3987a3;
+  font-size: 22px;
+}
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content-why-aom {
+  background-color: #3987a3;
+  padding: 20px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+}
+
+th.content-why-aom.why-left {
+  width: 45%;
+}
+
+.title-content-why a.block-content-why {
+  font-size: 18px;
+  color: #1611ad;
+  width: 45%;
+}
+
+a.block-content-why {
+  text-align: left;
+}
+
+.aom-why-color-table {
+  color: #000000;
+}
+
+.aom-why-color-table {
+  text-align: center;
+}
+
+.content-why-aom {
+  text-align: center;
+}
+
+table th {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.running,
+.scheduled,
+.expired,
+.closed {
+  font-size: 11px;
+  line-height: 1.4em;
+  text-align: center;
+  margin: 3px 0 0 0;
+  padding: 4px 5px 3px 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.running {
+  background: #12873b;
+  color: #fff;
+  margin-top: 10%;
+}
+
+.scheduled {
+  background: #ff7b0f;
+  color: #fff;
+}
+
+.down-table-why-aom {
+  background: #cbfdf5;
+}
+
+.down-table-why-aos {
+  background: #ffffff;
+}
+
+.aom-why-color-table {
+  padding: 15px;
+}
+
+.title-content-why {
+  padding: 15px;
+}
+
+@media screen and (max-width: 1100px) {
+  .running {
+    text-align: right;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .scheduled {
+    text-align: right;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .why-color-table-down {
+    text-align: right;
+    width: 100%;
+    margin-top: 0;
+    font-size: 14px;
+  }
+
+  .aom-why-color-table {
+    font-size: 19px;
+  }
+
+  .block-content-why {
+    font-size: 21px;
+    text-align: right;
+  }
+
+  table {
+    border: 0;
+  }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    display: block;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625em;
+  }
+
+  td.aom-why-color-table {
+    text-align: right;
+  }
+
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    text-align: right;
+  }
+
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #000000;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
